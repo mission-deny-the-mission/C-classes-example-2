@@ -22,6 +22,8 @@
 // Interestingly a class implicitly creates a namespace of it's own,
 // which is why the demoClass:: trick works in classes.cpp
 
+// see: https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
+
 // Namespaces can also be placed inside other namespaces as is evidenced whenever a namespace contains a class
 
 namespace classes {
@@ -42,7 +44,7 @@ namespace classes {
         int getNumber();
     };
 
-    // decleration for the function that prints out our class
+    // declaration for the function that prints out our class
     std::ostream &operator<<(std::ostream &os, demoClass obj);
 }
 

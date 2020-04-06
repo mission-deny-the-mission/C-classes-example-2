@@ -3,6 +3,12 @@
 
 namespace classes {
 
+    // the demoClass:: at the beggining of the names of these functions
+    // tells the compiler that these are methods of the class demoClass
+    // rather than regular functions
+
+    // these match up to the declarations in classes.h
+
     demoClass::demoClass(std::string text, int number) {
         this->setText(text);
         this->setNumber(number);
